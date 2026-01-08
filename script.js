@@ -788,7 +788,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-   "https://www.youtube.com/watch?v=HEAn4FqXFY4"
+   "https://www.youtube.com/watch?v=a0JTlcySUJo"
   ];
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
@@ -1067,7 +1067,7 @@ function createHintText() {
   canvas.width = canvas.height = canvasSize;
   const context = canvas.getContext('2d');
   const fontSize = 50;
-  const text = 'Happy Girlfriend Day!';
+  const text = 'Happy Birhtday!';
   context.font = `bold ${fontSize}px Arial, sans-serif`;
   context.textAlign = 'center';
   context.textBaseline = 'middle';
